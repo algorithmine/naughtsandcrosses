@@ -16,9 +16,9 @@ function Board({ xIsNext, squares, onPlay }) {
 
     const nextSquares = squares.slice();
     if (xIsNext) {
-      nextSquares[i] = "x";
+      nextSquares[i] = "X";
     } else {
-      nextSquares[i] = "o";
+      nextSquares[i] = "O";
     }
     onPlay(nextSquares);
   }
@@ -26,9 +26,9 @@ function Board({ xIsNext, squares, onPlay }) {
   const winner = calculateWinner(squares);
   let status;
   if (winner) {
-    status = "winner: " + winner;
+    status = "WINNER: " + winner;
   } else {
-    status = "next player: " + (xIsNext ? "x" : "o");
+    status = "Next player: " + (xIsNext ? "X" : "O");
   }
 
   return (
@@ -74,9 +74,9 @@ export default function Game() {
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0) {
-      description = "go to move #" + move;
+      description = "Go to move #" + move;
     } else {
-      description = "go to game start";
+      description = "Go to game start";
     }
 
     return (
@@ -109,11 +109,16 @@ export default function Game() {
                 className="reset-button"
                 onClick={() => window.location.reload(true)}
               >
-                reset
+                Reset
               </button>
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <footer className="footer">
+          <body>made by algorithmine</body>
+        </footer>{" "}
       </div>
     </div>
   );
