@@ -74,9 +74,9 @@ export default function Game() {
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0) {
-      description = "Go to move #" + move;
+      description = "back to move #" + move;
     } else {
-      description = "Go to game start";
+      description = "back to the beginning";
     }
 
     return (
@@ -109,11 +109,16 @@ export default function Game() {
                 className="reset-button"
                 onClick={() => window.location.reload(true)}
               >
-                Reset
+                reset
               </button>
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <footer className="footer">
+          <h5>made by algorithmine</h5>
+        </footer>
       </div>
     </div>
   );
