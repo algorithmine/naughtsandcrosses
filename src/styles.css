@@ -55,17 +55,6 @@ header {
   font-style: normal;
 }
 
-.footer {
-  background-color: teal;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  margin-top: auto;
-  text-align: center;
-}
-
 h1 {
   margin-top: 0;
   font-size: 22px;
