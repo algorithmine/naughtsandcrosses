@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
   margin: 20px;
   padding: 0;
-  font-family: "Almendra", serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   color: #fff;
   /* animated gradient background*/
@@ -53,6 +53,17 @@ header {
   font-size: 70px;
   color: #fff;
   font-style: normal;
+}
+
+.footer {
+  background-color: teal;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  margin-top: auto;
+  text-align: center;
 }
 
 h1 {
@@ -103,8 +114,7 @@ li {
 }
 
 .button {
-  font-family: "Almendra", serif;
-  font-weight: 400;
+  font-size: 14;
   padding: 10px 20px;
   border-radius: 90px;
   cursor: pointer;
@@ -118,8 +128,7 @@ li {
   border: 0;
   background-color: white;
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-  font-family: "Almendra", serif;
-  font-size: 15px;
+  font-size: 14px;
   transition: all 0.5s ease;
 }
 

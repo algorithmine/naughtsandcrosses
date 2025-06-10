@@ -115,6 +115,11 @@ export default function Game() {
           </div>
         </div>
       </div>
+      <div>
+        <footer className="footer">
+          <body>made by algorithmine</body>
+        </footer>{" "}
+      </div>
     </div>
   );
 }
