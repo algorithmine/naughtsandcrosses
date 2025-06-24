@@ -1,8 +1,11 @@
 {
   "name": "react.dev",
+  "homepage": "https://algorithmine.github.io/naughtsandcrosses",
   "version": "0.0.0",
   "main": "/src/index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-paged -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -24,5 +27,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
