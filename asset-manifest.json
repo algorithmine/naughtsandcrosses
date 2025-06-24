@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/naughtsandcrosses/static/css/main.12038989.css",
+    "main.js": "/naughtsandcrosses/static/js/main.55f9be9b.js",
+    "index.html": "/naughtsandcrosses/index.html",
+    "main.12038989.css.map": "/naughtsandcrosses/static/css/main.12038989.css.map",
+    "main.55f9be9b.js.map": "/naughtsandcrosses/static/js/main.55f9be9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12038989.css",
+    "static/js/main.55f9be9b.js"
+  ]
+}
